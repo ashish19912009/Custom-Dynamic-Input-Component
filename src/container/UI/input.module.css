@@ -1,0 +1,48 @@
+.InputDiv{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 3px solid green;
+}
+.Labels{
+    font-weight: bold;
+    display: block;
+    margin: 8px 8px;
+    color: #3d1313;
+}
+
+.InputElement{
+    outline: none;
+    border: 1px solid #3d1313;
+    background-color: #ffffff;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.InputButton{
+    outline: none;
+    background-color: #5DADE2;
+    border: 1px solid #2874A6;
+    margin-top: 10px;
+    border-radius: 5px;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color:#ffffff;
+}
+.InputButton:hover{
+    cursor: pointer;
+    background-color: #2874A6;
+    transition: ease-in-out .3s;
+}
+
+.InputElement:focus{
+    outline: none;
+    background-color: #cccccc;
+}
